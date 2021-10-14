@@ -74,7 +74,7 @@
     /* Main Content */
     
     .main-content {
-        background-color: gold;
+        /* background-color: gold; */
         font-family: 'Rockwell', sans-serif;
         padding: 50px 100px;
         margin-top: 60px;
@@ -115,10 +115,16 @@
     }
     
     .section-organized p.paragraph {
-        color: #000;
+        /* color: #000; */
         line-height: 2em;
         text-align: justify;
         font-size: 18px;
+        color: #fff;
+        background: rgba(50, 108, 238, .4);
+        box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
+        border-radius: 1rem;
+        padding: 20px;
+        /* text-shadow: 1px 1px 0 black; */
     }
     
     .download-btn {
@@ -142,10 +148,16 @@
     }
     
     .organized-five p {
-        color: #000;
+        /* color: #000; */
         line-height: 2em;
         text-align: justify;
         font-size: 16px;
+        color: #fff;
+        background: rgba(50, 108, 238, .4);
+        box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
+        border-radius: 1rem;
+        padding: 20px;
+        /* text-shadow: 1px 1px 0 black; */
     }
     /*  Content Pages */
     
@@ -159,18 +171,25 @@
     }
     
     footer h3 {
-        color: #000;
+        color: #326cee;
         font-size: 16px;
         font-weight: 800;
         text-transform: capitalize;
         line-height: 1.6em;
+        text-shadow: 1px 1px 0 black;
     }
     
     footer p {
         font-size: 16px;
         font-weight: 500;
         line-height: 1.9em;
-        color: #000;
+        /* color: #000; */
+        color: #fff;
+        background: rgba(50, 108, 238, .4);
+        box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
+        border-radius: 1rem;
+        padding: 20px;
+        /* text-shadow: 1px 1px 0 black; */
     }
     
     footer .link-bottom {
@@ -184,6 +203,7 @@
         text-align: left;
         line-height: 1.2em;
         text-decoration: none;
+        text-shadow: 1px 1px 0 black;
     }
     /* Side Floater */
     
@@ -221,4 +241,14 @@
         display: block;
         padding: 14px 8px;
         max-width: 100%;
+    }
+    /* video section */
+    
+    video {
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
     }
