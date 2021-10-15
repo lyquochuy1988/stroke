@@ -261,3 +261,18 @@
         top: 0;
         left: 0;
     }
+    /* Help Page */
+    
+    .text-general-paragraph {
+        font-size: 22px;
+    }
+    
+    .text-general-paragraph span {
+        color: var(--pink-color);
+    }
+    
+    @media screen and (min-width: 1350px) {
+        .section-settings {
+            margin-top: -60px;
+        }
+    }
