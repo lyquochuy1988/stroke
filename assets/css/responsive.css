@@ -1,38 +1,44 @@
 /* Ipad pro */
 
 @media (min-width: 1024px) and (max-width: 1366px) {
-    .section-organized.organized-first .row {
+    .header-recorder li a.ovvy-screen {
+        font-size: 32px;
+    }
+    #app-recorder .section-organized.organized-first .row {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
-    .section-organized.organized-third .row {
+    .simples-screen img {
+        width: 100%;
+    }
+    #app-recorder .section-organized.organized-third .row {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
-    .section-organized.organized-five .row {
+    #app-recorder .section-organized.organized-five .row {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
-    .section-organized {
+    #app-recorder .section-organized {
         padding: 10px 0;
     }
-    .section-organized p.edit-img {
+    #app-recorder .section-organized p.edit-img {
         text-align: center;
         margin: 0;
     }
-    .left-mb {
+    #app-recorder .left-mb {
         margin-bottom: 26px;
     }
-    .download-btn {
+    #app-recorder .download-btn {
         margin-top: 4px;
     }
-    footer {
+    #app-recorder footer {
         padding: 60px 80px;
     }
 }
@@ -41,70 +47,75 @@
 /* tablet and mobile */
 
 @media (max-width: 1023px) {
-    a.how-to-use {
-        padding: 0px 10px;
-        font-size: 16px;
+    .header-recorder {
+        padding: 10px 30px;
     }
-    .left-mb {
+    .header-recorder li a.ovvy-screen {
+        font-size: 22px;
+    }
+    #app-recorder .left-mb {
         margin-bottom: 26px;
     }
-    .main-content {
+    #app-recorder .main-content-recorder {
         padding: 50px 40px;
     }
-    .main-quote .row {
+    #app-recorder .main-quote .row {
         margin-bottom: -10px;
     }
-    .section-organized.organized-first .row {
+    #app-recorder .section-organized.organized-first .row {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
-    .section-organized.organized-third .row {
+    #app-recorder .section-organized.organized-third .row {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
-    .section-organized.organized-five .row {
+    #app-recorder .section-organized.organized-five .row {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
-    .section-organized {
+    #app-recorder .section-organized {
         padding: 10px 0;
     }
-    .section-organized p.edit-img {
+    #app-recorder .section-organized p.edit-img {
         text-align: center;
         margin: 0;
     }
-    .section-organized img {
+    #app-recorder .section-organized img {
         max-width: 100%;
     }
     .quote p:first-child::before {
         font-size: 160px;
     }
-    .section-organized h2 {
+    #app-recorder .section-organized h2 {
         font-size: 34px;
         text-align: center;
     }
-    .section-organized p.paragraph {
+    #app-recorder .section-organized p.paragraph {
         text-align: center;
         line-height: 1.5em;
     }
-    .content-pages {
+    #app-recorder .content-pages {
         padding: 100px 20px 20px 20px;
         max-width: 100%;
     }
-    footer {
+    #app-recorder .section-organized h3 {
+        text-align: center;
+    }
+    #app-recorder footer {
         padding: 40px 40px;
     }
-    .content-text {
+    #app-recorder .content-text {
         flex-direction: column;
         padding-bottom: 0px;
     }
-    .wrap-button {
+    #app-recorder .wrap-button {
         margin: 0;
         text-align: center;
     }
@@ -114,51 +125,63 @@
 /* Mobile */
 
 @media (max-width: 739px) {
-    .header {
-        padding: 10px 50px;
-    }
-    .header__inner {
+    #app-recorder .header__inner {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
     }
-    .header ul li {
-        padding-right: 8px;
+    .header-recorder {
+        padding: 10px;
     }
-    .header .logo-svg {
-        width: 90px;
+    .header-recorder ul {
+        font-size: inherit;
     }
-    iframe {
+    .header-recorder ul li {
+        padding-right: 14px;
+    }
+    .header-recorder li a img {
+        display: block;
+        width: 80px;
+    }
+    .header-recorder li a.ovvy-screen {
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+    #app-recorder iframe {
         width: 100%;
     }
-    .main-content {
+    #app-recorder .main-content-recorder {
         padding: 40px 26px;
     }
-    .section-organized h2 {
+    #app-recorder .section-organized h2 {
         font-size: 26px;
         text-align: center;
     }
-    .section-organized h3 {
+    #app-recorder .section-organized h3 {
         font-size: 24px;
         text-align: center;
     }
-    .section-organized p.paragraph {
+    #app-recorder .section-organized p.paragraph {
         text-align: center;
         line-height: 1.5em;
     }
-    .section-organized.main-quote .left-mb {
+    #app-recorder .section-organized.main-quote .left-mb {
         margin-bottom: 20px;
     }
-    .wrap-button {
+    #app-recorder .wrap-button {
         text-align: center;
     }
-    .download-btn {
+    #app-recorder .download-btn {
         margin-top: 0;
     }
-    footer {
+    #app-recorder footer {
         padding: 40px 20px;
         text-align: center;
+    }
+    #app-recorder .footer-pages {
+        padding: 10px 40px;
+        margin-top: -60px;
     }
 }
 
@@ -166,40 +189,31 @@
 /* Small Mobile */
 
 @media (max-width: 550px) {
-    .main-content {
+    #app-recorder .main-content-recorder {
         padding: 40px 20px;
     }
-    .main-quote .edit-img {
+    #app-recorder .main-quote .edit-img {
         display: flex;
         justify-content: center;
     }
 }
 
 @media (max-width: 500px) {
-    .header {
+    #app-recorder .header {
         padding: 10px 8px;
     }
-    .header .logo-svg {
+    #app-recorder .header .logo-svg {
         width: 80px;
     }
-    a.how-to-use {
-        padding: 0px 8px;
-        font-size: 13px;
-    }
-    .main-quote .edit-img {
+    #app-recorder .main-quote .edit-img {
         display: flex;
         justify-content: center;
     }
 }
 
 @media (max-width: 320px) {
-    .header {
-        padding: 10px;
-    }
-    a.how-to-use {
-        padding: 0px 4px;
-    }
-    img.google-play {
-        width: 100px;
+    .header-recorder li a.ovvy-screen {
+        font-size: 8px;
+        letter-spacing: 1px;
     }
 }

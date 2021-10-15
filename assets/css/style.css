@@ -1,9 +1,9 @@
-    #app {
+    #app-recorder {
         overflow: hidden;
         position: relative;
     }
     
-    .header {
+    .header-recorder {
         position: fixed;
         top: 0;
         left: 0;
@@ -14,7 +14,13 @@
         background-color: var(--bg-color);
     }
     
-    .header ul {
+    .header-recorder .header__inner {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .header-recorder ul {
         display: flex;
         align-items: center;
         padding-left: 0;
@@ -23,57 +29,28 @@
         margin: 0;
     }
     
-    .header ul li {
-        padding-right: 20px;
+    .header-recorder ul li {
+        padding-right: 30px;
     }
     
-    .header ul li:last-child {
+    .header-recorder ul li:last-child {
         padding-right: 0px;
     }
     
-    .header li a img {
+    .header-recorder li a img {
         display: block;
     }
     
-    .how-to-use {
-        display: inline-block;
-        cursor: pointer;
-    }
-    
-    a.how-to-use {
-        background: linear-gradient(#ffc42f, #fbe539);
-        color: #8327c0 !important;
-        /* margin-left: 20px; */
-        text-transform: none;
-        padding: 0px 20px;
-        height: auto;
+    .header-recorder li a.ovvy-screen {
         text-decoration: none;
-        white-space: normal;
-        text-align: center;
-        line-height: 48px;
-        letter-spacing: 0px;
-        font-weight: 500;
-        font-size: 22px;
-        box-shadow: rgb(0 0 0 / 25%) 0px 10px 20px 0px;
-        border-radius: 5px;
-        transform-origin: 50% 50%;
-        opacity: 1;
-        transform: translate(0px, 0px);
-        visibility: visible;
-        border-width: 0px;
-        backdrop-filter: none;
-        filter: brightness(100%);
-    }
-    
-    .blue-link {
-        text-decoration: none;
-        color: #401ead;
-        margin-left: 20px;
-        font-size: 20px;
+        color: var(--white-color);
+        font-size: 34px;
+        font-weight: 600;
+        letter-spacing: 2px;
     }
     /* Main Content */
     
-    .main-content {
+    .main-content-recorder {
         /* background-color: gold; */
         font-family: 'Rockwell', sans-serif;
         padding: 50px 100px;
@@ -81,53 +58,62 @@
         color: var(--black-color);
         line-height: 26px;
     }
+    /* Text main large */
+    
+    .main-content-recorder .text-main h2 {
+        font-size: 64px;
+    }
+    
+    .simples-screen {
+        margin-top: 70px;
+    }
     /* Quote Section */
     
-    .main-quote .row {
+    .main-content-recorder .main-quote .row {
         display: flex;
         align-items: center;
     }
     /* Organized First */
     
-    .section-organized {
+    .main-content-recorder .section-organized {
         padding: 50px 0;
     }
     
-    .section-organized .row {
+    .main-content-recorder .section-organized .row {
         display: flex;
         justify-content: center;
         align-items: center;
     }
     
-    .section-organized p.edit-img {
+    .main-content-recorder .section-organized p.edit-img {
         text-align: center;
     }
     
-    .section-organized h2 {
-        font-size: 45px;
+    .main-content-recorder .section-organized h2 {
+        font-size: 38px;
         font-weight: 800;
         text-transform: capitalize;
         line-height: 1.2em;
         font-family: 'Rockwell-Bold';
         margin: 0;
-        color: var(--bg-color);
+        color: #fff;
         text-shadow: 1px 1px 0 black;
     }
     
-    .section-organized p.paragraph {
+    .main-content-recorder .section-organized p.paragraph {
         /* color: #000; */
         line-height: 2em;
         text-align: justify;
         font-size: 18px;
         color: #fff;
-        background: rgba(50, 108, 238, .4);
+        /* background: rgba(50, 108, 238, .4);
         box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
         border-radius: 1rem;
-        padding: 20px;
+        padding: 20px; */
         /* text-shadow: 1px 1px 0 black; */
     }
     
-    .download-btn {
+    .main-content-recorder .download-btn {
         background-color: var(--bg-color);
         color: var(--white-color);
         padding: 18px 26px;
@@ -136,28 +122,40 @@
         display: inline-block;
     }
     
-    .section-organized h3 {
+    .main-content-recorder .section-organized h3 {
         font-size: 30px;
         font-weight: 800;
         text-transform: capitalize;
         line-height: 1.2em;
         font-family: 'Rockwell-Bold';
         margin: 0;
-        color: var(--bg-color);
+        color: #fff;
         text-shadow: 1px 1px 0 black;
     }
     
-    .organized-five p {
+    .main-content-recorder .organized-four .small-text {
+        font-size: 14px;
+        color: var(--white-color);
+        margin-top: -8px;
+    }
+    
+    .main-content-recorder .organized-five p {
         /* color: #000; */
         line-height: 2em;
         text-align: justify;
         font-size: 16px;
         color: #fff;
-        background: rgba(50, 108, 238, .4);
+        /* background: rgba(50, 108, 238, .4);
         box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
         border-radius: 1rem;
-        padding: 20px;
+        padding: 20px; */
         /* text-shadow: 1px 1px 0 black; */
+    }
+    
+    .main-content-recorder .organized-five .small-text-five {
+        text-align: center;
+        font-size: 14px;
+        line-height: 1em;
     }
     /*  Content Pages */
     
@@ -166,12 +164,12 @@
     }
     /* footer */
     
-    footer {
-        padding: 60px 100px;
+    #app-recorder footer {
+        padding: 0px 100px 40px 100px;
     }
     
-    footer h3 {
-        color: #326cee;
+    #app-recorder footer h3 {
+        color: #fff;
         font-size: 16px;
         font-weight: 800;
         text-transform: capitalize;
@@ -179,35 +177,46 @@
         text-shadow: 1px 1px 0 black;
     }
     
-    footer p {
+    #app-recorder footer p {
         font-size: 16px;
         font-weight: 500;
         line-height: 1.9em;
         /* color: #000; */
         color: #fff;
-        background: rgba(50, 108, 238, .4);
+        /* background: rgba(50, 108, 238, .4);
         box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
         border-radius: 1rem;
-        padding: 20px;
+        padding: 20px; */
         /* text-shadow: 1px 1px 0 black; */
     }
     
-    footer .link-bottom {
+    #app-recorder footer .link-bottom {
         font-size: 16px;
         font-weight: 500;
         margin-top: 60px;
     }
     
-    footer .link-bottom a {
-        color: var(--bg-color);
+    #app-recorder footer .link-bottom a {
+        color: #fff;
         text-align: left;
         line-height: 1.2em;
         text-decoration: none;
         text-shadow: 1px 1px 0 black;
     }
+    
+    #app-recorder footer {
+        padding: 0px 100px 40px 100px;
+    }
+    
+    #app-recorder footer .row.footer-text .col p,
+    #app-recorder footer .row.footer-text .col h3,
+    #app-recorder footer .row.footer-text .col a {
+        color: #000;
+        text-shadow: none;
+    }
     /* Side Floater */
     
-    .share {
+    #app-recorder .share {
         position: fixed;
         z-index: 1000;
         right: 0;
@@ -228,23 +237,23 @@
         opacity: 0;
     }
     
-    .share a {
+    #app-recorder .share a {
         display: block;
         transition: transform .3s;
     }
     
-    .share a:hover {
+    #app-recorder .share a:hover {
         transform: translate(0, -8px);
     }
     
-    .share img {
+    #app-recorder .share img {
         display: block;
         padding: 14px 8px;
         max-width: 100%;
     }
     /* video section */
     
-    video {
+    video.video-recorder {
         object-fit: cover;
         width: 100vw;
         height: 100vh;
