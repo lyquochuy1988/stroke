@@ -1,6 +1,11 @@
 /* Ipad pro */
 
 @media (min-width: 1024px) and (max-width: 1366px) {
+    /* how to use page */
+    .section-organized.how-to-use p img {
+        width: 100%;
+    }
+    /* end how to use page */
     .header-recorder li a.ovvy-screen {
         font-size: 24px;
     }
@@ -129,6 +134,7 @@
     #app-recorder .section-organized h2 {
         font-size: 34px;
         text-align: center;
+        margin-bottom: 30px;
     }
     #app-recorder .section-organized p.paragraph {
         text-align: center;
