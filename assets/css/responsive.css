@@ -15,6 +15,10 @@
         font-size: 12px;
         width: 90px;
     }
+    .main-content-recorder {
+        padding: 50px 70px;
+        ;
+    }
     #app-recorder .section-organized.organized-first .row {
         display: flex;
         /* flex-direction: column-reverse; */

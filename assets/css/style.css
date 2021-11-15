@@ -86,7 +86,7 @@
     .main-content-recorder {
         /* background-color: gold; */
         font-family: 'Rockwell', sans-serif;
-        padding: 50px 100px;
+        padding: 50px 200px;
         margin-top: 60px;
         color: var(--black-color);
         line-height: 26px;
@@ -109,7 +109,7 @@
     /* Organized First */
     
     .main-content-recorder .section-organized {
-        padding: 50px 0;
+        padding: 30px 0;
     }
     
     .main-content-recorder .section-organized .row {
@@ -131,6 +131,7 @@
         margin: 0;
         color: var(--primary-color);
         text-shadow: 1px 1px 0 black;
+        text-align: center;
     }
     
     .title-second-color {
@@ -141,7 +142,7 @@
         background: rgb(253 253 253 / 80%);
         box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
         border-radius: 1rem;
-        padding: 12px 16px;
+        padding: 20px 24px 10px 24px;
         margin-top: 10px;
     }
     
@@ -325,4 +326,32 @@
         .section-settings {
             margin-top: -60px;
         }
+    }
+    /* left corner */
+    
+    #app-recorder .share-left {
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        bottom: 50%;
+        width: 100px;
+        background: #fff;
+        border-radius: 0px 20px 20px 0px;
+        transform: translate(0, 50%);
+        box-shadow: 0 0 1em rgb(0 0 0 / 10%);
+    }
+    
+    #app-recorder .share-left a {
+        display: block;
+        transition: transform .3s;
+    }
+    
+    #app-recorder .share-left a:hover {
+        transform: translate(0, -8px);
+    }
+    
+    #app-recorder .share-left img {
+        display: block;
+        padding: 14px 8px;
+        max-width: 100%;
     }
