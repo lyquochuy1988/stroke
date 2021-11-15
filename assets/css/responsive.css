@@ -207,6 +207,9 @@
         font-size: 26px;
         text-align: center;
     }
+    #app-recorder .section-organized h2.huge-title {
+        font-size: 36px;
+    }
     #app-recorder .section-organized h3 {
         font-size: 24px;
         text-align: center;

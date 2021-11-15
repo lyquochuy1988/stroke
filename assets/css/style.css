@@ -134,6 +134,10 @@
         text-align: center;
     }
     
+    .main-content-recorder .section-organized h2.huge-title {
+        font-size: 60px;
+    }
+    
     .title-second-color {
         color: var(--second-color);
     }
