@@ -51,7 +51,7 @@
     /* How To Use Button */
     
     .how-to-use {
-        display: inline-block;
+        /* display: inline-block; */
         cursor: pointer;
     }
     
@@ -60,7 +60,7 @@
         /* background: linear-gradient(#6a00f0, #ff10ff); */
         background: var(--primary-color);
         color: #fff !important;
-        /* margin-left: 20px; */
+        display: inline-block;
         text-transform: none;
         padding: 0px 20px;
         height: auto;
@@ -254,10 +254,6 @@
         text-shadow: 1px 1px 0 black;
     }
     
-    #app-recorder footer {
-        padding: 0px 100px 40px 100px;
-    }
-    
     #app-recorder footer .row.footer-text .col p,
     #app-recorder footer .row.footer-text .col h3,
     #app-recorder footer .row.footer-text .col a {
@@ -322,7 +318,7 @@
     }
     
     .number {
-        font-size: 60px;
+        font-size: 70px;
         color: var(--primary-color);
     }
     
@@ -358,4 +354,13 @@
         display: block;
         padding: 14px 8px;
         max-width: 100%;
+    }
+    
+    footer .grid {
+        border-top: 1px solid #fff;
+        padding-top: 20px;
+    }
+    
+    .main-content-recorder .section-organized p.paragraph.color-gray {
+        color: gray;
     }
