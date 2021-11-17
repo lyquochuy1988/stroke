@@ -140,6 +140,7 @@
     
     .title-second-color {
         color: var(--second-color);
+        font-size: 70px;
     }
     
     .bg-behind {
@@ -328,39 +329,78 @@
         }
     }
     /* left corner */
-    
-    #app-recorder .share-left {
-        position: fixed;
-        z-index: 1000;
-        left: 0;
-        bottom: 50%;
-        width: 100px;
-        background: #fff;
-        border-radius: 0px 20px 20px 0px;
-        transform: translate(0, 50%);
-        box-shadow: 0 0 1em rgb(0 0 0 / 10%);
-    }
-    
-    #app-recorder .share-left a {
-        display: block;
-        transition: transform .3s;
-    }
-    
-    #app-recorder .share-left a:hover {
-        transform: translate(0, -8px);
-    }
-    
-    #app-recorder .share-left img {
-        display: block;
-        padding: 14px 8px;
-        max-width: 100%;
-    }
+    /* footer line  */
     
     footer .grid {
         border-top: 1px solid #fff;
         padding-top: 20px;
     }
+    /* paragraph color gray */
     
     .main-content-recorder .section-organized p.paragraph.color-gray {
         color: var(--primary-color);
+    }
+    /* Ribbon */
+    
+    .ribbon {
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        width: 450px;
+        height: 100px;
+        position: absolute;
+        top: 40px;
+        left: -140px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 24px;
+        overflow: hidden;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        border: 1px dashed #fff;
+        /* box-shadow: 0 0 0 3px #b10225, 0px 21px 5px -18px rgba(0, 0, 0, 0.6); */
+        box-shadow: 0 0 0 3px #ab0ca9, 0px 21px 5px -18px rgba(0, 0, 0, 0.6);
+        /* background: #cb0027; */
+        background: var(--primary-color);
+        transition: all 1s ease-in-out;
+    }
+    
+    .ribbon h4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        margin: 2px 0;
+        color: var(--white-color);
+    }
+    
+    .ribbon img {
+        width: 40px;
+        height: 40px;
+        margin-right: 5px;
+    }
+    
+    .ribbon span {
+        font-size: 15px;
+        color: var(--white-color);
+    }
+    
+    @keyframes slideIn {
+        0% {
+            margin-top: -150px;
+        }
+        25% {
+            margin-top: 0;
+        }
+        50% {
+            margin-top: 0;
+        }
+        75% {
+            margin-top: 150px;
+        }
+        100% {
+            margin-top: 150px;
+        }
     }
