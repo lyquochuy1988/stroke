@@ -385,6 +385,7 @@
     .ribbon span {
         font-size: 15px;
         color: var(--white-color);
+        text-transform: uppercase;
     }
     
     @keyframes slideIn {
