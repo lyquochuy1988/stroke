@@ -91,6 +91,16 @@
         color: var(--black-color);
         line-height: 26px;
     }
+    
+    .main-content-recorder .discount-code {
+        font-size: 26px;
+        color: var(--primary-color);
+        font-weight: bold;
+    }
+    
+    .main-content-recorder .discount-code a {
+        color: var(--primary-color);
+    }
     /* Text main large */
     
     .main-content-recorder .text-main h2 {
@@ -135,7 +145,7 @@
     }
     
     .main-content-recorder .section-organized h2.huge-title {
-        font-size: 60px;
+        font-size: 50px;
     }
     
     .title-second-color {

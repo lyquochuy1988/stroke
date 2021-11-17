@@ -201,6 +201,15 @@
 }
 
 
+/* Ipad */
+
+@media (max-width: 768px) {
+    .title-second-color {
+        font-size: 60px;
+    }
+}
+
+
 /* Mobile */
 
 @media (max-width: 739px) {
@@ -244,7 +253,7 @@
         text-align: center;
     }
     #app-recorder .section-organized h2.huge-title {
-        font-size: 36px;
+        font-size: 28px;
     }
     #app-recorder .section-organized h2.huge-title .title-second-color {
         font-size: 40px;
@@ -287,6 +296,9 @@
         display: flex;
         justify-content: center;
     }
+    .title-second-color {
+        font-size: 34px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -299,6 +311,16 @@
     #app-recorder .main-quote .edit-img {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media (max-width: 400px) {
+    #app-recorder .section-organized h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .title-second-color {
+        font-size: 30px;
     }
 }
 
@@ -316,6 +338,13 @@
     .header-recorder li a.ovvy-screen {
         font-size: 8px;
         letter-spacing: 1px;
+    }
+    #app-recorder .section-organized h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .title-second-color {
+        font-size: 25px;
     }
 }
 
