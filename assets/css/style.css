@@ -139,7 +139,8 @@
         line-height: 1.2em;
         font-family: 'Rockwell-Bold';
         margin: 0;
-        color: var(--h2-color);
+        /* color: var(--h2-color); */
+        color: var(--white-color);
         text-shadow: 1px 1px 0 black;
         text-align: center;
     }
@@ -227,6 +228,10 @@
         font-size: 16px;
     }
     
+    .two-buttons {
+        margin-top: 50px;
+    }
+    
     .two-buttons a {
         background-color: transparent;
         background-image: linear-gradient( 1085deg, #21bdca 0%, #00cd98 100%);
@@ -286,7 +291,7 @@
     .section-form {
         background-attachment: scroll;
         background-color: #02275f;
-        /* background-image: url(https://neurology.us.com/wp-content/uploads/2019/11/brain-blue-back.png); */
+        background-image: url(https://neurology.us.com/wp-content/uploads/2019/11/brain-blue-back.png);
         background-position: -667px 250px;
         background-repeat: no-repeat;
         background-size: 90% auto;
