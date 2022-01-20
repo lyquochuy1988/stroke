@@ -84,7 +84,7 @@
     /* Main Content */
     
     .main-content-recorder {
-        /* background-color: gold; */
+        background-color: var(--primary-color);
         font-family: 'Rockwell', sans-serif;
         padding: 50px 200px;
         margin-top: 60px;
@@ -139,7 +139,7 @@
         line-height: 1.2em;
         font-family: 'Rockwell-Bold';
         margin: 0;
-        color: var(--primary-color);
+        color: var(--h2-color);
         text-shadow: 1px 1px 0 black;
         text-align: center;
     }
@@ -149,8 +149,8 @@
     }
     
     .title-second-color {
-        color: var(--second-color);
-        font-size: 70px;
+        color: var(--white-color);
+        font-size: 60px;
     }
     
     .bg-behind {
@@ -162,7 +162,7 @@
     }
     
     .main-content-recorder .section-organized p.paragraph {
-        color: #000;
+        color: var(--p-color);
         line-height: 1.7em;
         text-align: justify;
         font-size: 18px;
@@ -174,13 +174,77 @@
         /* text-shadow: 1px 1px 0 black; */
     }
     
-    .main-content-recorder .download-btn {
-        background-color: var(--bg-color);
+    .h5-purpose {
+        color: #F85315;
+        font-size: 12px;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .app-buttons ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    
+    .app-buttons ul li {
+        padding-right: 10px;
+    }
+    
+    .exclusion-list ul {
+        padding-left: 0;
+        list-style: none;
+    }
+    
+    .exclusion-list ul li {
+        margin-top: 10px;
+    }
+    
+    .exclusion-list ul li a {
+        text-decoration: none;
         color: var(--white-color);
-        padding: 18px 26px;
         font-size: 16px;
-        margin-top: 16px;
-        display: inline-block;
+    }
+    
+    .exclusion-list ul li a:hover {
+        color: #1691aa;
+        cursor: pointer;
+    }
+    
+    .wrap-button {
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .wrap-button .btn.learn-more {
+        background-color: transparent;
+        background-image: linear-gradient( 1085deg, #21bdca 0%, #00cd98 100%);
+        text-shadow: 0px 0px 10px rgb(0 0 0 / 0%);
+        padding: 16px 26px;
+        color: var(--white-color);
+        font-size: 16px;
+    }
+    
+    .two-buttons a {
+        background-color: transparent;
+        background-image: linear-gradient( 1085deg, #21bdca 0%, #00cd98 100%);
+        text-shadow: 0px 0px 10px rgb(0 0 0 / 0%);
+        padding: 16px 26px;
+        color: var(--white-color);
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    
+    .h5-objective {
+        color: var(--h5-color);
+        font-size: 18px;
+        font-weight: normal;
+    }
+    
+    .take-a-tour {
+        margin-bottom: 60px;
     }
     
     .main-content-recorder .section-organized h3 {
@@ -218,15 +282,53 @@
         font-size: 14px;
         line-height: 1em;
     }
+    
+    .section-form {
+        background-attachment: scroll;
+        background-color: #02275f;
+        /* background-image: url(https://neurology.us.com/wp-content/uploads/2019/11/brain-blue-back.png); */
+        background-position: -667px 250px;
+        background-repeat: no-repeat;
+        background-size: 90% auto;
+        margin-bottom: 0px;
+        padding: 100px 25px 75px 25px;
+        position: relative;
+    }
+    
+    .section-form p.paragraph {
+        color: var(--p-color);
+        line-height: 1.7em;
+        font-size: 18px;
+        margin: 8px 0;
+    }
+    
+    .section-form h2 {
+        font-size: 40px;
+        font-weight: 800;
+        text-transform: capitalize;
+        line-height: 1.2em;
+        font-family: 'Rockwell-Bold';
+        margin-bottom: 30px;
+        color: var(--white-color);
+        text-shadow: 1px 1px 0 black;
+        text-align: center;
+    }
+    
+    .section-form .small-text {
+        font-size: 16px;
+        color: var(--p-color);
+    }
     /*  Content Pages */
     
     .content-pages {
         padding: 100px 100px 20px 100px;
+        background-color: var(--primary-color);
     }
     /* footer */
     
     #app-recorder footer {
-        padding: 0px 100px 40px 100px;
+        padding: 40px 100px;
+        background-color: var(--footer-color);
     }
     
     #app-recorder footer h3 {
@@ -254,7 +356,7 @@
     #app-recorder footer .link-bottom {
         font-size: 16px;
         font-weight: 500;
-        margin-top: 60px;
+        margin-top: 30px;
     }
     
     #app-recorder footer .link-bottom a {
@@ -342,7 +444,6 @@
     /* footer line  */
     
     footer .grid {
-        border-top: 1px solid #fff;
         padding-top: 20px;
     }
     /* paragraph color gray */
@@ -414,4 +515,73 @@
         100% {
             margin-top: 150px;
         }
+    }
+    /* Terms Page */
+    
+    .terms,
+    .help {
+        margin-bottom: 30px;
+    }
+    
+    .terms .top-terms,
+    .help .top-help {
+        margin-top: 50px;
+    }
+    
+    .terms .top-terms h2 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: -0.6px;
+        color: #009ee2;
+        text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+        max-width: 100%;
+    }
+    
+    .terms .top-terms p {
+        color: #83c9e2;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    
+    .terms h4 {
+        color: rgb(225, 249, 255);
+        font-size: 22px;
+        line-height: 1.15;
+        margin-bottom: 20px;
+    }
+    
+    .terms p {
+        text-align: justify;
+        color: #a0bdd3;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .help .top-help h2 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: -0.6px;
+        color: #009ee2;
+        text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+        max-width: 100%;
+    }
+    
+    .help .top-help h1 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: -0.6px;
+        color: var(--white-color);
+        text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+        max-width: 100%;
+    }
+    
+    .help .top-help p {
+        color: #83c9e2;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;
     }

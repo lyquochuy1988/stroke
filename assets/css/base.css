@@ -5,10 +5,16 @@
     --title-color: #555;
     --sub-title-color: #9a9a9a;
     /* --primary-color: #ff10ff; */
-    --primary-color: #cb06c9;
-    --second-color: #6a00f0;
-    --bg-color: royalblue;
+    /* --primary-color: #cb06c9; */
+    --primary-color: #001E49;
+    /* --second-color: #6a00f0; */
+    --second-color: #0e3d85;
+    --h2-color: #009EFE;
+    --h5-color: #009FFF;
+    --bg-color: rgb(10, 11, 14);
     --pink-color: #FF0000;
+    --p-color: #84a6ce;
+    --footer-color: #040e29;
 }
 
 * {
@@ -38,6 +44,7 @@ html {
     font-size: 62.5%;
     color: #a3a3a3;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 h1,

@@ -1,3 +1,25 @@
+/* fix image in column */
+
+@media (min-width: 1113px) and (max-width: 1570px) {
+    p.edit-img img {
+        width: 100%;
+    }
+}
+
+
+/* column reverse image */
+
+@media (max-width: 1112px) {
+    .mobile-column .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .video iframe {
+        width: 100%;
+    }
+}
+
+
 /* Ipad pro */
 
 @media (min-width: 1024px) and (max-width: 1366px) {
@@ -159,7 +181,6 @@
         padding-bottom: 0px;
     }
     #app-recorder .wrap-button {
-        margin: 0;
         text-align: center;
     }
 }
